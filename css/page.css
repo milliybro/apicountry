@@ -6,12 +6,19 @@ main {
    display: grid;
    grid-template-columns: 40% 60%;
    margin-top: 50px;
+   @media (max-width:1100px){
+      grid-template-columns: 100%
+   }
 }
 
 .infor {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
    grid-gap: 100px;
+   @media (max-width:550px){
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 10px;
+   }
 }
 
 .country-text>h4 {
@@ -41,6 +48,12 @@ main {
 
 .country-image {
    width: 100%;
+   @media (max-width:1100px){
+      width: 50%;
+   }
+   @media (max-width:550px){
+      width: 100%;
+   }
 }
 
 .country-text>h2 {
