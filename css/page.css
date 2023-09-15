@@ -1,0 +1,80 @@
+main {
+   margin-top: 80px;
+}
+
+.countre {
+   display: grid;
+   grid-template-columns: 40% 60%;
+   margin-top: 50px;
+}
+
+.infor {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 100px;
+}
+
+.country-text>h4 {
+   color: #111517;
+   font-family: Nunito Sans;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 24px;
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   align-items: center;
+   /* 150% */
+}
+
+.country-text>h4>span {
+   color: #111517;
+   font-family: Nunito Sans;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 300;
+   line-height: normal;
+   display: flex;
+   gap: 5px;
+}
+
+.country-image {
+   width: 100%;
+}
+
+.country-text>h2 {
+   color: #111517;
+   font-family: Nunito Sans;
+   font-size: 32px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+}
+
+.first-infor>h4,
+.second-infor>h4 {
+   color: #111517;
+   font-family: Nunito Sans;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 32px;
+   /* 200% */
+}
+
+.native,
+.population,
+.region,
+.subregion,
+.capital,
+.domain,
+.currencies,
+.lang {
+   color: #111517;
+   font-family: Nunito Sans;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 300;
+   line-height: 32px;
+}
